@@ -49,7 +49,7 @@ echo (" - ");
 echo $game3["visitingTeam"];
 echo (" | ");
 echo $game3["pointsHomeTeam"];
-echo (" - ");
+echo ("-");
 echo $game3["pointsVisitingTeam"];
 
 echo ("<br>");
@@ -78,6 +78,6 @@ $games = array(
     )
 );
 
-echo $games[0]["homeTeam"]." - ".$games[0]["visitingTeam"]." |  ".$games[0]["pointsHomeTeam"]." - ".$games[0]["pointsVisitingTeam"].".<br>";
-echo $games[1]["homeTeam"]." - ".$games[1]["visitingTeam"]." |  ".$games[1]["pointsHomeTeam"]." - ".$games[1]["pointsVisitingTeam"].".<br>";
-echo $games[2]["homeTeam"]." - ".$games[2]["visitingTeam"]." |  ".$games[2]["pointsHomeTeam"]." - ".$games[2]["pointsVisitingTeam"].".<br>";
+echo $games[0]["homeTeam"]." - ".$games[0]["visitingTeam"]." |  ".$games[0]["pointsHomeTeam"]."-".$games[0]["pointsVisitingTeam"]."<br>";
+echo $games[1]["homeTeam"]." - ".$games[1]["visitingTeam"]." |  ".$games[1]["pointsHomeTeam"]."-".$games[1]["pointsVisitingTeam"]."<br>";
+echo $games[2]["homeTeam"]." - ".$games[2]["visitingTeam"]." |  ".$games[2]["pointsHomeTeam"]."-".$games[2]["pointsVisitingTeam"]."<br>";
